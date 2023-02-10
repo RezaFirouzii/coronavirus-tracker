@@ -1,3 +1,7 @@
+package io.javabrains.coronavirustracker;
+
+import io.javabrains.coronavirustracker.controllers.HomeController;
+import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,8 +30,8 @@ public class HomeControllerTest {
         mockMvc.perform(MockMvcRequestBuilders.get("/"))
             .andExpect(MockMvcResultMatchers.status().isOk())
             .andExpect(MockMvcResultMatchers.view().name("home"))
-            .andExpect(MockMvcResultMatchers.model().attributeExists("locationStatsList"))
-            .andExpect(MockMvcResultMatchers.model().attribute("locationStatsList", Matchers.hasSize(0)))
+            .andExpect(MockMvcResultMatchers.model().attributeExists("locationStats"))
+            .andExpect(MockMvcResultMatchers.model().attribute("locationStats", Matchers.hasSize(108)))
             .andReturn();
     }
 }

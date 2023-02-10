@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e1f48b-d805-4616-bff1-3107b216cc49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/junit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/junit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/models/LocationStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/models/LocationStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/services/CoronaVirusDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/javabrains/coronavirustracker/services/CoronaVirusDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/CoronaVirusDataServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/CoronaVirusDataServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/CoronavirusTrackerApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/CoronavirusTrackerApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/LocationStatsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/javabrains/coronavirustracker/LocationStatsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +44,33 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.CoronavirusTrackerApplication">
+    <configuration name="CoronavirusTrackerApplicationTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.javabrains.coronavirustracker.CoronavirusTrackerApplicationTests" />
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.javabrains.coronavirustracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoronavirusTrackerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="junit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.javabrains.coronavirustracker.CoronavirusTrackerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoronavirusTrackerApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -50,6 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676038979286</updated>
       <workItem from="1676038980543" duration="258000" />
+      <workItem from="1676040465722" duration="2684000" />
     </task>
     <servers />
   </component>
@@ -61,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
